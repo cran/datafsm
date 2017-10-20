@@ -1,7 +1,7 @@
 Package: datafsm
 Title: Estimating Finite State Machine Models from Data
-Version: 0.2.0
-Date: 2017-06-16
+Version: 0.2.1
+Date: 2017-10-18
 Authors@R: c( person("Nay", "John J.", 
       email = "john.j.nay@gmail.com", role = c("aut")), 
     person("Gilligan",  "Jonathan M.", 
@@ -21,14 +21,14 @@ Depends: R (>= 3.1.1), methods, stats
 License: MIT + file LICENSE
 LazyData: true
 LinkingTo: Rcpp
-Suggests: doParallel, foreach, testthat, diagram, knitr
+Suggests: doParallel, foreach, testthat (>= 1.0.2), diagram, knitr
 Imports: caret, GA, Rcpp
 VignetteBuilder: knitr
 RoxygenNote: 6.0.1
 NeedsCompilation: yes
-Packaged: 2017-06-17 02:14:05 UTC; Jonathan
+Packaged: 2017-10-20 06:19:17 UTC; Jonathan
 Author: Nay John J. [aut],
   Gilligan Jonathan M. [cre, aut]
 Maintainer: Gilligan Jonathan M. <jonathan.gilligan@vanderbilt.edu>
 Repository: CRAN
-Date/Publication: 2017-06-17 14:40:08 UTC
+Date/Publication: 2017-10-20 06:26:09 UTC
