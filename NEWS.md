@@ -1,3 +1,13 @@
+# datafsm 0.2.2
+
+* Rewrote covariate testing in `fitnessCPP` to fix memory access errors.
+* Added new vignette, giving an example using real data from Fudenberg,
+  Rand, and Dreber.
+* Change progress reports to use `message()` and `warning()` instead of 
+  `print()` and `cat()`
+* Added new dataset with iterated prisoner's dilemma games from Nay and 
+  Vorobeychik (2016).
+
 # datafsm 0.2.1
 
 * Updated tests to work with forthcoming testthat version 2.0.0
